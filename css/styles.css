@@ -486,7 +486,6 @@ h1{
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
-    background-attachment: fixed;
     background-color: #353535dc;
     color: white;
     display: flex;

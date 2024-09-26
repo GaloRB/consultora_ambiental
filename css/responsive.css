@@ -34,6 +34,9 @@
     .cotizacion__boton button:hover {
         padding: 2.3rem;
     }
+    .contenedor-servicios{
+        background-attachment: fixed;
+    }
 }
 
 
@@ -118,6 +121,9 @@
     .diseño__list ul>li {
         font-size: 2.5rem;
         padding: 1.8rem;
+    }
+    .contenedor-servicios{
+        background-attachment: fixed;
     }
 
     .contenedor-servicios h3{
@@ -277,6 +283,9 @@
     .diseño__list ul>li {
         font-size: 3.2rem;
         padding: 2rem;
+    }
+    .contenedor-servicios{
+        background-attachment: fixed;
     }
     .contenedor-servicios h3{
         font-size: 4rem;
@@ -447,6 +456,9 @@
     .diseño h2 {
         font-size: 5rem;
         margin: auto 6rem;
+    }
+    .contenedor-servicios{
+        background-attachment: fixed;
     }
     .contenedor-servicios h3{
         font-size: 4.7rem;
