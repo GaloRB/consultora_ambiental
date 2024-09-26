@@ -20,6 +20,20 @@
         display: block;
         text-align: center;
     }
+    .diseño h2::after {
+        content: '';
+        display: block;
+        width: 10rem;
+        height: .7rem;
+        margin-top: 1rem;
+    }
+    .cotizacion__boton button {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    .cotizacion__boton button:hover {
+        padding: 2.3rem;
+    }
 }
 
 
@@ -68,9 +82,9 @@
         width: 15%;
     }
     .banner__button button {
-        font-size: 4rem;
+        font-size: 2.5rem;
         margin: 10 auto;
-        padding: 5rem;
+        padding: 4rem;
     }
     /* ------------ años ----------*/
     .años h2 {
@@ -94,14 +108,20 @@
         display: block;
         width: 15rem;
         height: .7rem;
+        margin-top: 1rem;
     }
     .diseño p {
         font-size: 3rem;
         padding: 1rem 2rem;
     }
+   
     .diseño__list ul>li {
+        font-size: 2.5rem;
+        padding: 1.8rem;
+    }
+
+    .contenedor-servicios h3{
         font-size: 3rem;
-        padding: 3rem;
     }
     /* -------------- servicios ---------------*/
     .services h2 {
@@ -121,9 +141,6 @@
         height: 15px;
     }
     /* ---- cotizacion ----*/
-    .cotizacion {
-        background-color: var(--orange-color);
-    }
     .cotizacion h4 {
         font-size: 4rem;
         text-align: center;
@@ -132,6 +149,13 @@
     }
     .cotizacion button {
         font-size: 4rem;
+    }
+    .cotizacion__boton button {
+        font-size: 2.3rem;
+        padding: 2rem;
+    }
+    .cotizacion__boton button:hover {
+        padding: 2.5rem;
     }
     /* --- galeria ----*/
     .trabajos h4 {
@@ -177,10 +201,10 @@
         margin: 0px 6rem;
     } */
     .banner__title h1 {
-        font-size: 7rem;
+        font-size: 5rem;
     }
     .banner__title h2 {
-        font-size: 7rem;
+        font-size: 4rem;
     }
     .banner__services {
         margin-top: 0rem;
@@ -194,7 +218,7 @@
         width: 10%;
     }
     .banner__button button {
-        font-size: 5rem;
+        font-size: 3.5rem;
         margin: 20rem auto;
         padding: 3rem;
     }
@@ -244,14 +268,18 @@
         display: block;
         width: 15rem;
         height: .7rem;
+        margin-top: 1rem;
     }
     .diseño p {
         font-size: 2.8rem;
         padding: 1rem 2rem;
     }
     .diseño__list ul>li {
-        font-size: 5rem;
-        padding: 4rem;
+        font-size: 3.2rem;
+        padding: 2rem;
+    }
+    .contenedor-servicios h3{
+        font-size: 4rem;
     }
     /* -------------- servicios ---------------*/
     .services h2 {
@@ -287,6 +315,13 @@
     .cotizacion button {
         font-size: 4rem;
     }
+    .cotizacion__boton button {
+        font-size: 3rem;
+        padding: 2rem;
+    }
+    .cotizacion__boton button:hover {
+        padding: 3rem;
+    }
     /* --- galeria ----*/
     .trabajos h4 {
         font-size: 4rem;
@@ -295,6 +330,9 @@
     .trabajos p {
         font-size: 3.5rem;
         text-align: center;
+    }
+    .trabajos-img img {
+        width: 40%;
     }
     .gallery-card {
         display: block;
@@ -338,8 +376,11 @@
         border-left: 10px solid #df9a4b;
         margin: 0px 6rem;
     } */
-    .banner__title h1 h2 {
-        font-size: 8rem;
+    .banner__title h1 {
+        font-size: 6rem;
+    }
+    .banner__title h2{
+        font-size: 4rem;
     }
     .banner__services {
         margin-top: 6rem;
@@ -407,29 +448,24 @@
         font-size: 5rem;
         margin: auto 6rem;
     }
+    .contenedor-servicios h3{
+        font-size: 4.7rem;
+    }
     .diseño h2::after {
         content: '';
         display: block;
         width: 15rem;
         height: .7rem;
+        margin-top: 1rem;
     }
     .diseño p {
         font-size: 2.8rem;
         padding: 1rem 12rem;
     }
-    .diseño__list {
-        background-image: url(../img/trabajotablaroca_auto_x2.jpg);
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: soft-light;
-        background-attachment: fixed;
-        background-color: #353535dc;
-        height: 100vh;
-        color: white;
-    }
+    
     .diseño__list ul>li {
-        font-size: 5rem;
-        padding: 6rem;
+        font-size: 3.8rem;
+        padding: 3rem;
     }
     /* -------------- servicios ---------------*/
     .services h2 {
@@ -454,6 +490,13 @@
     .cotizacion button {
         font-size: 4rem;
     }
+    .cotizacion__boton button {
+        font-size: 3rem;
+        padding: 2rem;
+    }
+    .cotizacion__boton button:hover {
+        padding: 3rem;
+    }
     /* slide */
     .slider-container {
         padding: 5rem 30rem;
@@ -475,10 +518,15 @@
         font-size: 3.5rem;
         text-align: center;
     }
+
+    .trabajos-img img {
+        width: 30%;
+    }
     .gallery-card {
         display: block;
         text-align: center;
     }
+
     .trabajos button {
         font-size: 4rem;
     }

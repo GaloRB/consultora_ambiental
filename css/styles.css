@@ -454,15 +454,26 @@ h1{
     font-size: 2.5rem;
     margin: 2rem 6rem 2rem 2rem;
     padding-top: 2rem;
+    position: relative;
+    text-align: right;
+}
+
+.diseño h3 {
+    font-size: 2.5rem;
+   /*  margin: 2rem 6rem 2rem 2rem; */
+    padding-top: 2rem;
+    text-align: center;
 }
 
 .diseño h2::after {
     content: '';
-    display: block;
+    display: inline-block;
     width: 10rem;
     height: .5rem;
-    background-color: #df9a4b;
-    margin-top: 1rem;
+    background-color: var(--text-color);
+    margin-top: 3rem;
+    position: absolute;
+    right: 0;
 }
 
 .diseño p {
@@ -470,15 +481,25 @@ h1{
     font-size: 1.8rem;
 }
 
-.diseño__list {
-    background-image: url(../img/trabajotablaroca3_auto_x2.jpg);
+.contenedor-servicios{
+    background-image: url(../img/background-services.jpg);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
     background-attachment: fixed;
     background-color: #353535dc;
-    height: 40vh;
     color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+
+.diseño__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .diseño__list ul {
@@ -487,7 +508,7 @@ h1{
 
 .diseño__list ul>li {
     font-size: 2rem;
-    padding: 2rem;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -518,9 +539,6 @@ h1{
 
 /* ---- cotizacion ----*/
 
-.cotizacion {
-    background-color: var(--green-color);
-}
 
 .cotizacion h4 {
     font-size: 3rem;
@@ -543,8 +561,16 @@ h1{
     background-color: rgba(255, 255, 255, 0.26);
 }
 
-.cotizacion__boton {
-    padding: 3rem;
+.cotizacion__boton button {
+    font-size: 2rem;
+    background-color: var(--green-color);
+    padding: 1.5rem;
+    border-radius: 8rem;
+}
+.cotizacion__boton button:hover {
+    background-color: var(--text-color);
+    padding: 2.3rem;
+    transition: all 0.3s ease;
 }
 
 
