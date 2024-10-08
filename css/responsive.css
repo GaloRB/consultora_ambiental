@@ -6,20 +6,14 @@
 }
 
 @media(max-width:480px) {
-    .gallery-card {
-        display: block;
-        text-align: center;
-    }
+    
 }
 
 
 /* smatphones to tablets */
 
 @media(min-width:481px) and (max-width:767px) {
-    .gallery-card {
-        display: block;
-        text-align: center;
-    }
+    
     .diseño h2::after {
         content: '';
         display: block;
@@ -172,10 +166,7 @@
         font-size: 3.5rem;
         text-align: center;
     }
-    .gallery-card {
-        display: block;
-        text-align: center;
-    }
+    
     /* ---------- footer ----------*/
     .footer h5 {
         font-size: 3rem;
@@ -307,10 +298,10 @@
         width: 15px;
         height: 15px;
     }
-    .slide img {
+    /* .slide img {
         height: 40rem;
         width: 100%;
-    }
+    } */
     /* ---- cotizacion ----*/
     .cotizacion {
         background-color: var(--orange-color);
@@ -340,13 +331,7 @@
         font-size: 3.5rem;
         text-align: center;
     }
-    .trabajos-img img {
-        width: 40%;
-    }
-    .gallery-card {
-        display: block;
-        text-align: center;
-    }
+    
     /* ---------- footer ----------*/
     .footer h5 {
         font-size: 3rem;
@@ -404,7 +389,7 @@
     }
     .banner__button button {
         font-size: 3rem;
-        margin: 30rem auto;
+        margin: 20rem auto;
         padding: 3rem;
     }
     /* ----- menu -----*/
@@ -517,10 +502,10 @@
         width: 15px;
         height: 15px;
     }
-    .slide img {
+    /* .slide img {
         height: 50rem;
         width: 100%;
-    }
+    } */
     /* ---trabajos  galeria ----*/
     .trabajos h4 {
         font-size: 4rem;
@@ -530,14 +515,7 @@
         font-size: 3.5rem;
         text-align: center;
     }
-
-    .trabajos-img img {
-        width: 30%;
-    }
-    .gallery-card {
-        display: block;
-        text-align: center;
-    }
+    
 
     .trabajos button {
         font-size: 4rem;

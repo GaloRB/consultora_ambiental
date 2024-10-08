@@ -180,7 +180,6 @@ h1{
 }
 
 .slide img {
-    height: 25rem;
     width: 100%;
 }
 
@@ -310,7 +309,7 @@ h1{
     border: 1px solid var(--text-color);
     border-radius: 50%;
     display: block;
-    margin: 25rem auto;
+    margin: 15rem auto;
     padding: 3rem;
     outline: none;
     transition: all 0.3s ease;
@@ -587,12 +586,25 @@ h1{
 
 .trabajos-img {
     margin: 4rem;
+    text-align: center;
 }
 
-.trabajos-img img {
+.gallery{
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.gallery img{
+    width: 40%;
+    height: 15rem;
     object-fit: cover;
-    object-fit: contain;
-    width: 60%;
+    object-position: center;
+    border-radius: 1.5rem;
+    transition: all 0.5s ease-out;
+}
+
+.gallery img:hover{
+    width: 50%;
 }
 
 .trabajos button {
